@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="kotki">
+    <!--теги-->
+    <meta name="description" content="Котики мяу мяу">
+    <!--это то что показывается в описаниии сайта-->
+    <title>Котики</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <h1> Котятки</h1>
+    </header>
+    <!-- <hr color="black" size="2" noshade width="2000"> -->
+    <!-- <br> -->
+    <!-- style="border: 2px solid black;" — блоки-->
+    <!-- div — cоздаёт невидимые блоки(большие) span — создаёт маленькие -->
+    <section>
+        <article id="Block1" class="card">
+            <li>
+                <p><strong><em>Чёрные</em></strong></p>
+            </li>
+            <p>Черные кошки способны постоять за себя, активны, инициативны, предприимчивы. Одна из
+                характеристик кошек
+                этого окраса – высокая стрессоустойчивость. Черные кошки умны и сообразительны, но их поведение может
+                быть
+                непредсказуемым. Они одновременно и дружелюбны, и упрямы. Черные кошки общительны, им нравится общество
+                людей и других кошек, но в то же время они отличаются независимостью.</p>
+            <img src="https://domikru.net/wp-content/uploads/2015/01/черные-коты-и-кошки-фото-11.jpg" alt="мяу"
+                class="img">
+        </article>
+        <br>
+        <!--alt нужен для того чтобы отображаться если картинка не сработала-->
+        <!--Lorem50-->
+        <article id="Block2" class="card">
+
+            <li>
+                <p><strong><em>Белые</em></strong></p>
+            </li>
+
+            <p>Большая часть кошек с белой шерстью имеют нежный и кроткий нрав. Это — тонко чувствующие натуры, крепко
+                привязывающиеся к хозяину, врастая в него всем сердцем. У некоторых белянок бывают настоящие нервные
+                потрясения, ведущие к отказу от пищи, когда их владельцы
+                надолго уезжают. Белые кошки не любят внимание чужаков к своей персоне, даже если это — восхищение ее
+                красотой.</p>
+            <img src="https://kto-chto-gde.ru/wp-content/uploads/2017/07/1183345_kartinki-koshek-belyh.jpg" alt="мяу"
+                class="img">
+        </article>
+        <br>
+        <article id="Block3" class="card">
+
+            <li>
+                <p><strong><em>Рыжие</em></strong></p>
+            </li>
+
+            <p>Рыжих котов называют золотыми, красными, солнечными. Одни относятся к ним с опаской, другие – безумно
+                любят.
+                Однако тех, кто оставался бы равнодушным к этим созданиям, наверное, просто не существует в природе. Все
+                потому,
+                что повадки и характер рыжих котов – особенные. Именно этим, а не окрасом солнечные пушистики отличаются
+                от
+                других своих сородичей в первую очередь.</p>
+            <img src="https://proprikol.ru/wp-content/uploads/2020/12/kartinki-ryzhih-kotov-25.jpg" alt="мяу"
+                class="img">
+        </article>
+    </section>
+
+    <br>
+    <table id="table" class="table">
+        <thead>
+            <tr>
+                <th class="th">Котики:</th>
+                <th>Чёрные</th>
+                <th>Белые</th>
+                <th>Рыжие</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            <tr>
+                <td class="th">Характер:</td>
+                <td>Крутые</td>
+                <td>Милые</td>
+                <td>Забавные</td>
+            </tr>
+            <tr>
+                <td class="th">Цена:</td>
+                <td>150р</td>
+                <td>200р</td>
+                <td>250р</td>
+            </tr>
+            <tr>
+                <td class="th">Кол-во в наличии:</td>
+                <td>20шт</td>
+                <td>15шт</td>
+                <td>10шт</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <footer id="login" class="login">
+        <form>
+            <div>
+                <p><strong>Кого заберёшь домой?</strong></p>
+                <input type="checkbox" class="cat" id="cat1" value="Yes" name="Чёрного">
+                <label for="cat1">Чёрного</label>
+                <input type="checkbox" class="cat" id="cat2" value="Yes" name="Белого">
+                <label for="cat2">Белого</label>
+                <input type="checkbox" class="cat" id="cat3" value="Yes" name="Рыжего">
+                <label for="cat3">Рыжего</label>
+
+            </div>
+            <br>
+            <div>
+                <Label for="email2"><strong>Email</strong></Label>
+                <input type="email" id="email2" placeholder="Введите email" class="login2">
+            </div>
+            <br>
+            <div>
+                <label for="password2"><strong>Пароль</strong></label>
+                <input type="password" id="password2" placeholder="Введите пароль" class="login2">
+            </div>
+            <br>
+            <div>
+                <label for="sex2"><strong>Пол</strong></label>
+                <select id="sex2" class="login2">
+                    <option value="male" selected>Мужской</option>
+                    <option value="female">Женский</option>
+                    <option value="other">Другой</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="number2"><strong>Возраст</strong></label>
+                <input type="number" id="number2" min="18" max="150" class="login2">
+            </div>
+            <br>
+            <div>
+                <label for="date2"><strong><strong>Дата визита</strong></label>
+                <input type="date" id="date2" class="login2">
+            </div>
+            <!-- <div>
+            <label for="range2">Ползунок</label>
+            <input type="range" id="range2">
+        </div> -->
+            <br>
+            <div>
+                <label for="message2">Комментарий</label>
+                <br>
+
+                <textarea id="message2" max-cols="50" max-rows="3" class="login2"></textarea>
+            </div>
+            <br>
+
+            <!-- <input type="submit" value="Отправить форму"> -->
+            <button class="btn" type="submit">Отправить</button>
+        </form>
+    </footer>
+
+    <br>
+    <nav id="nav" class="nav">
+        <a href="https://vk.com/kotomanechka" target="_blank"><strong>Отзывы</strong></a>
+    </nav>
+    <!--ol - по номерам-->
+    <!--ul - по точкам-->
+    <!--ul>li{Element $}*5-->
+</body>
+
+</html>
